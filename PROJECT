@@ -1,0 +1,10 @@
+domain: x-k8s.io
+repo: github.com/zawachte-msft/csr-helm
+resources:
+- group: addons
+  kind: HelmClusterResourceSet
+  version: v1
+- group: addons
+  kind: HelmClusterResourceSetBinding
+  version: v1
+version: "2"

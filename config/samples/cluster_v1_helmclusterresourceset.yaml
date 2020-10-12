@@ -1,0 +1,7 @@
+apiVersion: addons.x-k8s.io/v1
+kind: HelmClusterResourceSet
+metadata:
+  name: helmaddonsresourceset-sample
+spec:
+  # Add fields here
+  foo: bar
